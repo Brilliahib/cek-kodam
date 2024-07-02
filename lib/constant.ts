@@ -32,7 +32,7 @@ export const ListKhodam = [
   {
     id: 7,
     name: "Marlin FPIK",
-    desc: "Ikan Nabi Adam yang sempat viral di Tiktok. Info spot mancing yang isinya ikan nabi adam lur?",
+    desc: "Ikan Nabi Adam yang sempat viral di Tiktok. Info spot mancing yang isinya ikan nabi adam dips?",
   },
   {
     id: 8,

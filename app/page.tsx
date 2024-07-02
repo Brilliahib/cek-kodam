@@ -17,7 +17,7 @@ export default function Home() {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (!name) {
-      setResult({ name: "", khodam: "Isi nama dulu lur!", desc: "" });
+      setResult({ name: "", khodam: "Isi nama dulu dips!", desc: "" });
       return;
     }
 
@@ -34,7 +34,7 @@ export default function Home() {
         <div className="text-center space-y-2">
           <h1 className="md:text-5xl text-4xl font-extrabold">Cek Kodam</h1>
           <h1 className="md:text-5xl text-4xl font-extrabold text-purple-400">
-            Anak Tembalang
+            Anak Undip
           </h1>
         </div>
         <div className="w-full">
