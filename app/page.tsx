@@ -57,7 +57,9 @@ export default function Home() {
                   {result.khodam}
                 </h3>
                 <div className="md:text-md text-sm font-semibold">
-                  <p className="md:max-w-sm">{result.desc}</p>
+                  <p className=" flex justify-center text-center">
+                    {result.desc}
+                  </p>
                 </div>
               </>
             )}
