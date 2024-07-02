@@ -29,11 +29,11 @@ export default function Home() {
     setResult({ name, khodam: randomKhodam.name, desc: randomKhodam.desc });
   };
   return (
-    <main className="pad-x flex min-h-screen items-center justify-center">
-      <div className="space-y-4 w-full">
+    <main className="pad-x flex md:min-h-screen h-screen items-center justify-center">
+      <div className="space-y-4 md:max-w-xl w-full">
         <div className="text-center space-y-2">
-          <h1 className="md:text-5xl text-3xl font-extrabold">Cek Kodam</h1>
-          <h1 className="md:text-5xl text-3xl font-extrabold text-purple-400">
+          <h1 className="md:text-5xl text-4xl font-extrabold">Cek Kodam</h1>
+          <h1 className="md:text-5xl text-4xl font-extrabold text-purple-400">
             Anak Undip
           </h1>
         </div>
@@ -67,7 +67,7 @@ export default function Home() {
           <form onSubmit={handleSubmit} className="space-y-4">
             <Input
               type="text"
-              placeholder="Enter your name"
+              placeholder="Masukkan namamu disini dips!"
               value={name}
               onChange={(e) => setName(e.target.value)}
             ></Input>
